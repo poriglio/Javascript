@@ -28,6 +28,14 @@
 // 	alert("false!")
 // }
 
-var x = "30932-2398"
+// var x = "30932-2398"
 
-console.log(isNaN(x.charAt(6)))
+// console.log(isNaN(x.charAt(6)))
+
+var phone = ""
+var birthday = ""
+var zip = ""
+var state = ""
+var married = ""
+
+do{prompt('Enter your phone number.\nUse the format 000-000-0000.')}while((phone.length!==12)||(phone.charAt(3)!=="-")||(phone.charAt(7)!=="-")||(isNaN(phone.substring(0,3)))||(isNaN(phone.substring(4,7)))||(isNaN(phone.substring(8,12))));
