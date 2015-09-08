@@ -38,4 +38,7 @@ var zip = ""
 var state = ""
 var married = ""
 
-do{prompt('Enter your phone number.\nUse the format 000-000-0000.')}while((phone.length!==12)||(phone.charAt(3)!=="-")||(phone.charAt(7)!=="-")||(isNaN(phone.substring(0,3)))||(isNaN(phone.substring(4,7)))||(isNaN(phone.substring(8,12))));
+// do{phone=prompt("What is your phone number?\nEnter it in this format:\n000-000-0000")}while( ( phone.length!== 12 ) || ( phone.charAt( 3 ) !== "-" ) || (phone.charAt ( 7 ) !== "-" ) || ( isNaN(phone.substring(0,3)) ) || ( isNaN(phone.substring(4,7)) ) || ( isNaN(phone.substring(8,12)) ) )
+
+// do{birthday=prompt("When were you born?\nUse the format:\n00/00/00")}while( ( birthday.length !== 8) || ( birthday.charAt(2) !== "/") || (birthday.charAt(5) !== "/") ||  ( isNaN(birthday.substring(0,2)) ) ||  ( isNaN(birthday.substring(3,5)) ) ||  ( isNaN(birthday.substring(6,8)) ) )
+
