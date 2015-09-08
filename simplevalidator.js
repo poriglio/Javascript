@@ -66,6 +66,26 @@ var married = ""
 
 
 
+// STATE VALIDATION
+// STILL NEED TO MAKE SURE IT WON'T EVALUATE TRUE FOR NON-LETTER CHARACTERS OTHER THAN NUMBERS
 
+do{state = prompt("Where do you live?\nGive me your two-letter state abbreviation.")}while((state.length!==2)||(!isNaN(state)) )
+
+state = state.toUpperCase();
+
+console.log(state);
+
+
+
+
+//MARRIAGE
+
+married = prompt ( 'Are you married?');
+
+do{prompt('Are you married? Answer yes or no.')}while( !toLowerCase(married) )
+
+console.log(typeof married)
+
+console.log(married);
 
 
