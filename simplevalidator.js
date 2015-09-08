@@ -42,3 +42,30 @@ var married = ""
 
 // do{birthday=prompt("When were you born?\nUse the format:\n00/00/00")}while( ( birthday.length !== 8) || ( birthday.charAt(2) !== "/") || (birthday.charAt(5) !== "/") ||  ( isNaN(birthday.substring(0,2)) ) ||  ( isNaN(birthday.substring(3,5)) ) ||  ( isNaN(birthday.substring(6,8)) ) )
 
+
+
+// COME BACK TO THE ZIP VALIDATION
+
+// do{zip=prompt("What is your zip code?\nUse one of the following formats:\n00000 or 00000-0000")}while(
+// // ((zip.length===5) && (isNaN(zip))) 
+// 				// ORR
+// (
+
+// 	(zip.length===10) 
+// 	&& 
+// (
+// 	(isNaN(zip.substring(0,5))) || (isNaN(zip.substring(6,10)))
+// 		)
+
+// 	)
+// )
+
+// COME BACK TO THE ZIP VALIDATION
+
+
+
+
+
+
+
+
