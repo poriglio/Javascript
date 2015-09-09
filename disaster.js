@@ -14,9 +14,9 @@ for(var counter=0; counter<=(numVictims-1); counter++){
 	victimStreetArray.push(victimStreet);
 }
 
-console.log(victimNameArray);
-console.log(victimPhoneArray);
-console.log(victimStreetArray);
+// console.log(victimNameArray);
+// console.log(victimPhoneArray);
+// console.log(victimStreetArray);
 
 var volNameArray = [];
 var volPhoneArray = [];
@@ -34,12 +34,8 @@ for(var counter=0; counter<=(numVol-1); counter++){
 	volStreetArray.push(volStreet);
 }
 
-console.log(volNameArray);
-console.log(volPhoneArray);
-console.log(volStreetArray);
+// console.log(volNameArray);
+// console.log(volPhoneArray);
+// console.log(volStreetArray);
 
-// alert("There are " + numVictims + " in need and " + numVol + " people willing to help.\nThe people needing help are " + victimNameArray[0,victimNameArray.length-2] + " and " + victimNameArray[victimNameArray.length-1] + " and the people willing to help are " + volNameArray[0,volNameArray.length-2] + " and " + volNameArray[volNameArray.length-1] + ".");
-
-// CHANGE SO THAT IT WILL LIST MORE THAN TWO PEOPLE FOR EACH CATEGORY
-
-alert("There are " + numVictims + " in need and " + numVol + " people willing to help.\nThe people needing help are " + victimNameArray.slice(0,victimNameArray.length-2) + " and " + victimNameArray[victimNameArray.length-1] + " and the people willing to help are " + volNameArray[0,volNameArray.length-2] + " and " + volNameArray[volNameArray.length-1] + ".");
+alert("There are " + numVictims + " in need and " + numVol + " people willing to help.\nThe people needing help are " + victimNameArray.slice(0,victimNameArray.length-1) + " and " + victimNameArray[victimNameArray.length-1] + " and the people willing to help are " + volNameArray.slice(0,volNameArray.length-1) + " and " + volNameArray[volNameArray.length-1] + ".");
