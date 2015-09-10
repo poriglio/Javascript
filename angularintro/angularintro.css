@@ -3,6 +3,21 @@
 	border-radius: 9px;
 	font-size: 13pt;
 	color: white;
-	background: magenta;
 	border-style: none;
+}
+
+.dodgerblue{
+	background: dodgerblue;
+}
+
+.magenta{
+	background: magenta;
+}
+
+.hidden{
+	display: none;
+}
+
+.surprise{
+	display: block;
 }
