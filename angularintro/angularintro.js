@@ -6,6 +6,8 @@ angular.module("firstModule", [] );
 
 angular.module("firstModule").controller("firstController", ["$scope", function($scope){
 
+	$scope.title = "Practicing Angular Up in Hurrrrr";
+
 	$scope.buttonColor = "dodgerblue";
 	$scope.whenClicked = function(){
 		console.log("You touched the butt!");
