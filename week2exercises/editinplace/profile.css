@@ -18,19 +18,15 @@ body{
 }
 
 .introBox{
-
+	overflow: auto;
 }
 
 .mainBox{
-
-}
-
-.mainText{
-
+	overflow: auto;
 }
 
 .mainGallery{
-	
+	float: right;
 }
 
 
@@ -78,13 +74,12 @@ body{
 /*MAIN BOX LAYOUT*/
 
 .mainHeading{
-
 }
 
-.mainText{
-
+.mainParagraph{
+	display: inline-block;
+	width: 50%;
 }
-
 
 .mainImageFrame{
 
