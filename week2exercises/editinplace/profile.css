@@ -1,0 +1,99 @@
+
+body{
+	background: palevioletred;
+	font-size: 14pt;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*MAIN LAYOUT*/
+
+.allContent{
+	width: 769px;
+	margin: auto;
+	background: mistyrose;
+}
+
+.introBox{
+
+}
+
+.mainBox{
+
+}
+
+.mainText{
+
+}
+
+.mainGallery{
+	
+}
+
+
+
+
+/*UNIVERSAL CLASSES*/
+
+.imageBox{
+
+}
+
+.image{
+	width: 15rem;
+	height: 15rem;
+}
+
+.heading{
+
+}
+
+
+
+
+/*INTRO BOX LAYOUT*/
+
+.introImageBox{
+	float: left;
+}
+
+.introImage{
+}
+
+.introHeading{
+
+}
+
+.introText{
+
+}
+
+
+
+
+
+/*MAIN BOX LAYOUT*/
+
+.mainHeading{
+
+}
+
+.mainText{
+
+}
+
+
+.mainImageFrame{
+
+}
+
+.mainImage{
+
+}
+
+.imageCaption{
+
+}
