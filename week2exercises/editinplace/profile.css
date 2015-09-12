@@ -1,17 +1,21 @@
 
 body{
 	background: palevioletred;
-	font-size: 14pt;
+	font-size: 12pt;
+	font-family: verdana, sans-serif;
+	color: maroon;
 }
 
 *{
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 }
 
 /*MAIN LAYOUT*/
 
 .allContent{
+	padding: 2rem;
 	width: 769px;
 	margin: auto;
 	background: mistyrose;
@@ -25,9 +29,9 @@ body{
 	overflow: auto;
 }
 
-.mainGallery{
+/*.mainGallery{
 	float: right;
-}
+}*/
 
 
 
@@ -39,8 +43,7 @@ body{
 }
 
 .image{
-	width: 15rem;
-	height: 15rem;
+	border-radius: 50%;
 }
 
 .heading{
@@ -57,6 +60,8 @@ body{
 }
 
 .introImage{
+	width: 12rem;
+	height: 12rem;
 }
 
 .introHeading{
@@ -64,6 +69,7 @@ body{
 }
 
 .introText{
+	padding-left: 1rem;
 
 }
 
@@ -77,18 +83,23 @@ body{
 }
 
 .mainParagraph{
-	display: inline-block;
-	width: 50%;
+
+}
+
+.imageGallery{
+	float: right;
 }
 
 .mainImageFrame{
-
+	line-height: 1.4rem;
+	text-align: center;
+	padding: 1rem;
+	font-size: 0.9rem;
+	width: 278px;
 }
 
 .mainImage{
-
-}
-
-.imageCaption{
-
+	width: 15rem;
+	height: 15rem;
+	padding-bottom: 0.5rem;
 }
